@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output / logs
+*.log
+out.txt
+
+# Локальная громкость ассистента (база для ffplay)
+.speaker_volume.json
+
+# ML-модели — бинарники скачиваются scripts/download_models.sh
+models/**/*.onnx
+models/**/*.int8.onnx
+models/**/bpe.model
+models/**/unigram_*.vocab
+
+# Кэш скачанных треков SoundCloud
+.soundcloud_cache/
+
+# Отладочные дампы API (могут содержать личные JWT)
+debug_data/
+
+# Локальные тесты
+test.py
